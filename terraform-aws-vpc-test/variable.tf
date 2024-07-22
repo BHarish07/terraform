@@ -1,6 +1,9 @@
 variable "project_name" {
   default = "expense"
 }
+variable "environment" {
+  default = "dev"
+}
 
 
 variable "public_subnet_cidrs" {
